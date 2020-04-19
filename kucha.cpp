@@ -265,12 +265,12 @@ int main(){
 	
 	int num;
 	int choice = 0;
-	cout << "Welcome to the KUCHA" << "First, you should put there any num:";
+	cout << "Welcome to the KUCHA! " << "First, you should put there any num:";
 	cin >> num;
 	Tree<int> check(num);
 	while (choice != 5) {
 		cout << "What do u wanna to do:" << endl << "1. add new num" << endl << "2. delete all num eq to" << endl << "3. find num" << endl
-			<< "4. print tree" << "5. exit" <<endl;
+			<< "4. print tree" <<endl << "5. exit" <<endl;
 		cin >> choice;
 		switch (choice) {
 		case 1:
